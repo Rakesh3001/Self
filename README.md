@@ -15,11 +15,13 @@ Add User details or Signup details
 
 Select User details
     http://localhost:3030/selectuser
+
     Select or Find user details. For example, during login select user details by sending json object to the above URL.
     { username : "Rakesh", password: "abc" }
 
 Update User details
     http://localhost:3030/updateuser
+    
     Update user details using username as primary key. Send data as json to the above link like { username : "Rakesh", password: "abc123", DOB: "12/01/1989" }. You can send any number of attributes. 
 
 
